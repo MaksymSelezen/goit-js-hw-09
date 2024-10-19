@@ -36,9 +36,4 @@ function populateFeedbackForm() {
     form.elements.email.value = savedUserInfo.email || '';
     form.elements.message.value = savedUserInfo.message || '';
   }
-
-  // const savedUserInfo = JSON.parse(localStorage.getItem(localStorageKey)) ?? {};
-
-  // form.elements.email.value = savedUserInfo.email || '';
-  // form.elements.message.value = savedUserInfo.message || '';
 }
