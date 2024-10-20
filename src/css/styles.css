@@ -40,7 +40,6 @@ button {
 img {
   display: block;
   max-width: 100%;
-  /* height: auto; */
 }
 
 .btn {
@@ -84,10 +83,6 @@ img {
 .gallery-image {
   max-height: 200px;
 }
-
-/* .gallery-link:hover {
-  cursor: zoom-in;
-} */
 
 .sl-wrapper {
   background: rgba(46, 47, 66, 0.8);

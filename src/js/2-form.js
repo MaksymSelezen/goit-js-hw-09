@@ -35,5 +35,6 @@ function populateFeedbackForm() {
   if (savedUserInfo) {
     form.elements.email.value = savedUserInfo.email || '';
     form.elements.message.value = savedUserInfo.message || '';
+    formData = { ...savedUserInfo };
   }
 }
